@@ -2,57 +2,64 @@
    background-color: white; 
 }
 
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 
 .header{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 5px dotted black;
+}
+
+h2 {
+    align-self: center;
+    border: 5px dotted violet;
 }
 
 .main {
     display: flex;
-    border: 5px dotted blue;
-}
-
-.sidebar{
-    order: 1;
-    width: 200px;
-    border: 5px dotted red;
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex: 1;
+    border: 5px dotted blue;  
     align-items: center;
 }
 
-ul{
-    list-style-type: none;
-    padding: 16px;
-    margin: 16px;
-}
+.resumelinks {
+    /* Add display and flex wrap */
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* Add padding to move list away from margin */
+    padding: 32px;
+    align-content: stretch;
+  }
 
-li {
+.resumecard {
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
     padding: 16px;
     margin: 16px;
+    width: 300px;
+}
 
+.resumelinks a {
+    text-decoration: none;
+    border: 5px dotted red;
 }
 
 .content{
-    order: 2;
     min-width: 12em;
     border: 5px dotted yellow;
-    flex: 1;
+    /* flex: 1; */
 }
 
-.sidebar2{
-    order: 3;
-    width: 200px;
-    border: 5px dotted red;
-}
 
 .footer{
     display: flex;
@@ -60,6 +67,3 @@ li {
     border: 5px dotted green;
 }
 
-a {
-    text-decoration: none;
-}
