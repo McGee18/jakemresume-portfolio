@@ -28,6 +28,7 @@ h2 {
     flex: 1;
     border: 5px dotted blue;  
     align-items: center;
+    justify-content: center;
 }
 
 .resumelinks {
@@ -37,7 +38,6 @@ h2 {
     
     /* Add padding to move list away from margin */
     padding: 32px;
-    align-content: stretch;
   }
 
 .resumecard {
@@ -47,11 +47,21 @@ h2 {
     padding: 16px;
     margin: 16px;
     width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
 }
 
-.resumelinks a {
+.resumecard a {
     text-decoration: none;
     border: 5px dotted red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .content{
