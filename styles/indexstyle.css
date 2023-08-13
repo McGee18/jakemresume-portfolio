@@ -87,17 +87,18 @@ body {
     .technicalqualities {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        margin-bottom: 25px;
     }
 
         .techcard {
             border: 1px solid #eee;
             box-shadow: 2px 4px 16px rgba(0,0,0,.06);
             border-radius: 4px;
-            padding: 16px;
+            padding: 30px;
             margin: 16px;
-            width: 100px;
+            width: 200px;
             height: 100px;
         }
 
@@ -112,12 +113,12 @@ body {
         align-items: center;
     }
 
-        .resumelinks {
-            /* Add display and flex wrap */
+        /* .resumelinks {
+            Add display and flex wrap
             display: flex;
             flex-wrap: wrap;
             
-            /* Add padding to move list away from margin */
+            Add padding to move list away from margin
             padding: 32px;
         }
 
@@ -127,7 +128,7 @@ body {
             border-radius: 4px;
             padding: 16px;
             margin: 16px;
-            /* width: 100px; */
+            width: 100px;
 
             display: flex;
             flex-direction: column;
@@ -147,7 +148,7 @@ body {
                 margin: 20px;
 
                 font-size: 20px;
-            }
+            } */
         
         .education {
             background-color: #e5e7eb;
