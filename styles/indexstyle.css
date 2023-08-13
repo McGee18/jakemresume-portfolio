@@ -150,9 +150,26 @@ body {
                 font-size: 20px;
             } */
         
-        .education {
-            background-color: #e5e7eb;
+    .education {
+        background-color: #e5e7eb;
+    }
+
+        .educationcontent {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 5px solid #1f2937;
+            font-size: 20px;
         }
+
+        .edcard {
+            text-align: left;
+        }
+
+
 
 
 .footer{
