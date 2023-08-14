@@ -106,61 +106,30 @@ body {
                 height: 50px;
             }
 
+            .techskills {
+                text-align: left;
+                margin-left: 50px;
+                text-decoration: underline;
+            }
+
 
     .main {
         display: flex;
         flex: 1; 
         align-items: center;
     }
-
-        /* .resumelinks {
-            Add display and flex wrap
-            display: flex;
-            flex-wrap: wrap;
-            
-            Add padding to move list away from margin
-            padding: 32px;
-        }
-
-        .resumecard {
-            border: 1px solid #eee;
-            box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-            border-radius: 4px;
-            padding: 16px;
-            margin: 16px;
-            width: 100px;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-           
-        }
-
-            .resumecard a {
-                text-decoration: none;
-                border: 5px dotted red;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                padding: 10px;
-                margin: 20px;
-
-                font-size: 20px;
-            } */
         
     .education {
         background-color: #e5e7eb;
     }
 
         .educationcontent {
-            display: flex;
+            /* display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
             justify-content: center;
-            align-items: center;
-            padding: 20px;
+            align-items: center; */
+            padding: 20px 100px;
             border-bottom: 5px solid #1f2937;
             font-size: 20px;
         }
@@ -169,7 +138,10 @@ body {
             text-align: left;
         }
 
-
+    .workhistorycontent  {
+        padding:  20px 100px;
+        font-size: 20px;
+    }
 
 
 .footer{
