@@ -1,1 +1,1 @@
-# jakemresume-portfolio
+# jakemresume-git-hub-resume-portfolio
